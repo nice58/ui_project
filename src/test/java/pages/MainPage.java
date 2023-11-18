@@ -15,8 +15,10 @@ public class MainPage {
             supportChatHeader = $(".chat__text"),
             searchInput = $("#searchInput"),
             currency = $(".simple-menu__currency"),
-    pageBody =  $("body.ru"),
-    qr = $(".footer-apps__img");
+            pageBody =  $("body.ru"),
+            qr = $(".footer-apps__img"),
+            closeChat = $(".chat__btn-close");
+
 
 
     ElementsCollection
@@ -44,6 +46,12 @@ public class MainPage {
 
     public MainPage checkSupportChat(String value) {
         supportChatHeader.shouldHave(text(value));
+
+        return this;
+    }
+
+    public MainPage closeSupportChat() {
+        closeChat.click();
 
         return this;
     }

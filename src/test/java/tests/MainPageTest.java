@@ -20,20 +20,6 @@ public class MainPageTest extends TestBase {
         });
     }
 
-    @DisplayName("Проверка открытия чата поддержки")
-    @Test
-    @Tag("Smoke")
-    void checkSupportWindowTest() {
-        step("Открыть чат поддержки", () -> {
-            mainPage.openSupportChat();
-        });
-
-        step("Проверить заголовок в окне чата", () -> {
-            mainPage.checkSupportChat("Поддержка Wildberries");
-
-        });
-    }
-
     @DisplayName("Выбор валюты")
     @ParameterizedTest
     @Tag("Smoke")
@@ -61,6 +47,24 @@ public class MainPageTest extends TestBase {
 
         step("Проверить наличие QR-кода", () -> {
             mainPage.checkQr();
+        });
+    }
+
+    @DisplayName("Проверка открытия чата поддержки")
+    @Test
+    @Tag("Smoke")
+    void checkSupportWindowTest() {
+        step("Открыть чат поддержки", () -> {
+            mainPage.openSupportChat();
+        });
+
+        step("Проверить заголовок в окне чата", () -> {
+            mainPage.checkSupportChat("Поддержка Wildberries");
+
+        });
+
+        step("Закрыть чат поддержки", () -> {
+            mainPage.closeSupportChat();
         });
     }
 }

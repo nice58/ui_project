@@ -2,6 +2,8 @@ package config;
 
 import org.aeonbits.owner.Config;
 
+import static com.codeborne.selenide.Browsers.CHROME;
+
 @Config.Sources({
         "classpath:${env}.properties",
 })
@@ -9,8 +11,8 @@ import org.aeonbits.owner.Config;
 public interface WebDriverConfig extends Config {
 
     @Key("browser")
-    @DefaultValue("CHROME")
-    Browser getBrowser();
+    @DefaultValue(CHROME)
+    String getBrowser();
 
     @Key("baseUrl")
     @DefaultValue("https://www.wildberries.ru/")
