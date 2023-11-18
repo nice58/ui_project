@@ -51,17 +51,18 @@ test
 - BROWSER_VERSION - версия выбранного браузера,
 - BROWSER_SIZE - размер открываемого окна браузера, в котором будут выполняться тесты
 
-### :large_blue_circle: ***Сборка в Jenkins***
-<kbd> ![image](https://github.com/nice58/project/assets/103956147/cea91215-d48b-476f-8a1a-ee780dca6db0)</kbd>
+### :large_blue_circle: ***Сборка в [Jenkins](https://jenkins.autotests.cloud/job/student-trubanenko-qa_guru_21_ui_project/)***
+
+<kbd> </kbd>
 
 ### :large_blue_circle: ***Пример Allure-отчета***
-<kbd>![Screenshot_193](https://github.com/nice58/project/assets/103956147/4a2cc9d0-e9c5-4030-8ee5-6f36102ee604)</kbd>
+<kbd></kbd>
 
 ### :large_blue_circle: ***Уведомление в Telegram о результатах прохождения тестов***
-<kbd>![image](https://github.com/nice58/project/assets/103956147/70928dce-b714-474c-951e-3a9884c7ffea)</kbd>
+<kbd></kbd>
 
 ### :large_blue_circle: ***Видеопример прохождения тестов***
-![video](https://github.com/nice58/project/assets/103956147/fa000c70-458f-40e9-bb76-aa269e9fcc14)
+
 
 
 
