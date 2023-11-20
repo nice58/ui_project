@@ -30,11 +30,8 @@ public class TestBase {
     public static void beforeAll() {
         WebDriverProvider webDriverProvider = new WebDriverProvider(config);
         webDriverProvider.webDriverConfig();
-        open("https://www.wildberries.ru/");
-        Configuration.browserSize = "1920x1080";
 
 }
-
     @BeforeEach
     void addListener() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
