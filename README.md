@@ -53,15 +53,16 @@ test
 
 ### :large_blue_circle: ***Сборка в [Jenkins](https://jenkins.autotests.cloud/job/student-trubanenko-qa_guru_21_ui_project/)***
 
-<kbd> </kbd>
+<kbd>![image](https://github.com/nice58/ui_project/assets/103956147/e88296bb-c683-407b-8acd-4750283dd75a)</kbd>
 
 ### :large_blue_circle: ***Пример Allure-отчета***
-<kbd></kbd>
+<kbd>![image](https://github.com/nice58/ui_project/assets/103956147/83ef9496-f28e-40eb-bc55-96f115a9623b)</kbd>
 
 ### :large_blue_circle: ***Уведомление в Telegram о результатах прохождения тестов***
-<kbd></kbd>
+<kbd>![image](https://github.com/nice58/ui_project/assets/103956147/3dd67d07-7935-43d3-bceb-2a2d406fc3af)</kbd>
 
 ### :large_blue_circle: ***Видеопример прохождения тестов***
+![video (1)](https://github.com/nice58/ui_project/assets/103956147/a824aa50-dc3d-47f5-b9de-7918b7a895ec)
 
 
 
