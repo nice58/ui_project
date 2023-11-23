@@ -1,7 +1,5 @@
 package tests;
 
-import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import config.ConfigReader;
 import config.WebDriverConfig;
@@ -13,7 +11,7 @@ import org.junit.jupiter.api.BeforeEach;
 import pages.BasketPage;
 import pages.CatalogPage;
 import pages.MainPage;
-import pages.components.AttachmentFile;
+import components.AttachmentFile;
 
 import static com.codeborne.selenide.Selenide.open;
 

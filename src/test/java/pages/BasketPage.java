@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class BasketPage {
     SelenideElement quantity = $(".navbar-pc__notify"),
-    productBasket = $(".basket-section__basket-list.basket-list"),
+    productBasket = $(".basket-section__basket-list"),
     deleteButton = $(".btn__del"),
     emptyBasket = $(".basket-page__basket-empty");
 
@@ -18,7 +18,7 @@ public class BasketPage {
     }
 
     public BasketPage deleteProduct() {
-        productBasket.hover();
+        productBasket.click();
         deleteButton.click();
 
         return this;
